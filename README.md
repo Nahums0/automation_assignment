@@ -5,6 +5,27 @@
 - Optional features (as listed below) were added for more complex application and for a better showcase of skills.
 - There are multiple tests that could have been solved in one test, but I chose to have more than 2 tests to showcase the parallel feature.
 
+# Table of Contents
+- [Automation Assignment](#automation-assignment)
+  - [Personal Notes](#personal-notes)
+- [Table of Contents](#table-of-contents)
+  - [Installation Instructions](#installation-instructions)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Initialize and Activate Python Virtual Environment](#2-initialize-and-activate-python-virtual-environment)
+    - [3. Install Required Packages](#3-install-required-packages)
+    - [4. Run the Main Script](#4-run-the-main-script)
+  - [Constants Configuration](#constants-configuration)
+    - [1. PARALLEL\_WORKERS\_COUNT](#1-parallel_workers_count)
+    - [2. DEFAULT\_BROWSER](#2-default_browser)
+    - [3. LOG\_FILE\_NAME](#3-log_file_name)
+    - [4. WEBSITE\_URL](#4-website_url)
+    - [5. EXPECTED\_COMPLETED\_TRANSACTIONS](#5-expected_completed_transactions)
+    - [6. EXPECTED\_TOTAL\_BALANCE\_VALUE](#6-expected_total_balance_value)
+- [Test Cases](#test-cases)
+- [Optional Features](#optional-features)
+- [Program Design](#program-design)
+      - [Notes](#notes)
+      - [Todos](#todos)
 
 ## Installation Instructions
 
@@ -73,7 +94,7 @@ Update these values to achieve different configuration: failing tests, different
 
 ---
 
-## Optional Features
+# Optional Features
 
 - **Modularized testing:** Create multiple distinct flows, where each independently handles actions like login and transaction count assertion, simulating a real user session.
 - **Parallel Testing:** Running each flow in parallel.
@@ -98,7 +119,7 @@ The primary function initiates multiple flows in parallel, with each flow indepe
 - Implement the page object design pattern.
 - Create a git repo and document the installation process.
 
-### Todos
+#### Todos
 
 - [x] Init git repo with proper requirements in a virtual environment while writing documentation on how to set up the project.
 - [x] Create classes for pages of the application following the page object design pattern.
